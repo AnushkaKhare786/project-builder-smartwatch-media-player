@@ -10,10 +10,10 @@ setInterval(() => {
     },1000);
   
   let msgList = [
-      "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
-      "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.",
-      "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.",
-      "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.",
+      "Message is urgent. Please reply as soon as possible.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et augue mauris. Aliquam nec nibh tempor, venenatis.",
+      "Nullam condimentum ante ut rutrum blandit. Fusce eget tempus nunc, quis lobortis elit. Duis velit velit, congue pretium.",
+      "Proin ac elit non tellus hendrerit scelerisque. Nullam blandit molestie mattis. Praesent a felis scelerisque, lacinia .",
     ];
     
     let selectMsg = (msgId) => {
@@ -53,6 +53,6 @@ setInterval(() => {
       }
     }
     function selectSong(id) {
-      document.querySelector("#song").src = `./Songs/s${id}.mp3`;
-      document.querySelector("#art").src = `./Image/i${id}.jpg`;
+      document.querySelector("#song").src = `./song/s${id}.mp3`;
+      document.querySelector("#art").src = `./image/i${id}.jpg`;
     }
